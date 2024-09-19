@@ -24,7 +24,7 @@ The Age Calculator is a web application designed to calculate a user's age, dete
    cd Final_Project
 3. Install the required packages:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirement.txt
 4. Run the Flask application:
    ```bash
    flask run
