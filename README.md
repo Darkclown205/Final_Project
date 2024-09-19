@@ -18,10 +18,10 @@ The Age Calculator is a web application designed to calculate a user's age, dete
 ## Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/age-calculator
+   git clone https://github.com/Darkclown205/Final_Project
 2. Navigate to the project directory:
    ```bash
-   cd age-calculator
+   cd Final_Project
 3. Install the required packages:
    ```bash
    pip install -r requirements.txt
