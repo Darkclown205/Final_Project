@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <form method="POST">
+            <label for="birthdate">Enter your birthdate (e.g., January 15, 1999):</label>
+            <input type="text" id="birthdate" name="birthdate" required>
+            
+            <label for="email">Enter Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email for scheduling birthday wish">
+
+            <label for="birthday_wish">Birthday Wish:</label>
+            <textarea id="birthday_wish" name="birthday_wish" placeholder="Type your birthday wish"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+
+        {% if error %}
+            <div class="error">
+                <p>{{ error }}</p>
+            </div>
+        {% elif age is not none %}
+            <div class="result">
+                <p><span>Age:</span> {{ age }} years</p>
+                <p><span>Days until next birthday:</span> {{ days_until_birthday }} days</p>
+                <p><span>Time until next birthday:</span> <span class="countdown-timer animated-countdown">{{ days_until_birthday }} days, {{ hours_until_birthday }} hours</span></p>
+                <div class="zodiac">
+                    <p><span>Western Zodiac Sign:</span> {{ sign }}</p>
+                </div>
+                <div class="chinese-zodiac">
+                    <p><span>Chinese Zodiac Sign:</span> {{ chinese_zodiac_sign }}</p>
+                </div>
+                <div class="personalized-message">
+                    <p>{{ personalized_birthday_message }}</p>
+                </div>
+                <div class="today-date">
+                    <p>Today's Date: {{ today_formatted }}</p>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
