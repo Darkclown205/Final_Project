@@ -1,5 +1,6 @@
 # Age Calculator
-#### Video Demo: <URL HERE>
+#### Video Demo: 
+https://github.com/user-attachments/assets/e37d437e-a299-4e6b-8bad-8b4677568004
 
 ## Project Overview
 The Age Calculator is a web application designed to calculate a user's age, determine their zodiac sign, and provide special traits based on their birthdate. Additionally, users can schedule email wishes to themselves for their birthdays. This application leverages Flask for the backend, Python for the logic, and HTML/CSS for the frontend.
@@ -32,6 +33,9 @@ The Age Calculator is a web application designed to calculate a user's age, dete
 
 ## Future Improvements
 
->Enhanced Email Scheduling: Add more flexible options for scheduling and customizing birthday wishes.
+>Enhanced Email Scheduling: Add more flexible options for scheduling and custom
+
+
+izing birthday wishes.
 >Database Integration: Implement a database to store user profiles and birthday data.
 >User Authentication: Add authentication features to allow users to manage their data securely.
