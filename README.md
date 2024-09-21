@@ -14,10 +14,10 @@ Special Traits: The app offers insights into the personality traits typically as
 Birthday Wishes via Email: One of the standout features of this application is the ability to schedule birthday wishes to be sent via email on the user's next birthday. Users can input a message, and the system will automatically send the email to them when the time comes.
 
 ## Key Features
-- **Age Calculation: The application accurately calculates the user's age based on their birthdate, down to the specific number of days.
-- **Next Birthday Countdown: Displays how many days remain until the user's next birthday.
-- **Zodiac Sign & Traits: Offers users their zodiac sign along with a brief description of associated personality traits.
-- **Email Scheduling: Allows users to schedule a birthday wish to be emailed to themselves on their birthday.
+- **Age Calculation**: The application accurately calculates the user's age based on their birthdate, down to the specific number of days.
+- **Next Birthday Countdown**: Displays how many days remain until the user's next birthday.
+- **Zodiac Sign & Traits**: Offers users their zodiac sign along with a brief description of associated personality traits.
+- **Email Scheduling**: Allows users to schedule a birthday wish to be emailed to themselves on their birthday.
 - **User-Friendly Interface**: Provides a simple and intuitive interface for users to interact with the application.
 
 This project was built with simplicity and user experience in mind. Users are greeted with a minimalist interface, allowing them to enter their birthdate and receive all the relevant information in one click. The feature to schedule an email birthday wish adds a unique, personal touch that users will appreciate, particularly as a fun reminder on their birthday.
@@ -26,8 +26,8 @@ This project was built with simplicity and user experience in mind. Users are gr
 ## Technology Stack
 - **Frontend**: HTML, CSS
 - **Backend**: Flask (Python)
-- **Database: None (Data is managed in-session, but future improvements could include user login and data persistence)
-- **Email: The app uses Flask-Mail to handle email scheduling and delivery.
+- **Database**: None (Data is managed in-session, but future improvements could include user login and data persistence)
+- **Email**: The app uses Flask-Mail to handle email scheduling and delivery.
 
 
 ## Installation & Usage
